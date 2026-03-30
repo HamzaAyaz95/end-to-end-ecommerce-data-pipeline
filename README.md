@@ -26,24 +26,14 @@ Easy access to business insights such as revenue trends, customer segmentation, 
 
 ## ⚙️ Tech Stack
 
-The project uses a modern data engineering stack to build an end-to-end pipeline:
-
-🐍 Programming Language
-Python – used for data extraction, transformation, and loading
-🐳 Containerization
- Docker & Docker Compose – used to containerize services such as Kestra and manage the project environment
-🔄 Orchestration
-Kestra – manages and schedules the ETL pipeline using daily cron triggers
-☁️ Data Lake
-Google Cloud Storage (GCS) – stores raw and processed data files
-🏢 Data Warehouse
-BigQuery (EU region) – scalable cloud data warehouse for analytics
-🧱 Data Transformation
-dbt (Data Build Tool) – used to create staging and mart models for analytics
-📊 Data Visualization
-Looker Studio – interactive dashboard for business insights
-🛠 Other Tools
-Git & GitHub – version control and project hosting
+- 🐍 **Programming Language**: Python — used for data extraction, transformation, and loading  
+- 🐳 **Containerization**: Docker & Docker Compose — containerize services and manage environment  
+- 🔄 **Orchestration**: Kestra — manages and schedules the ETL pipeline (daily cron triggers)  
+- ☁️ **Data Lake**: Google Cloud Storage (GCS) — stores raw and processed data files  
+- 🏢 **Data Warehouse**: BigQuery (EU region) — scalable cloud data warehouse for analytics  
+- 🧱 **Data Transformation**: dbt — creates staging and mart models  
+- 📊 **Data Visualization**: Looker Studio — dashboard and reporting  
+- 🛠 **Other Tools**: Git & GitHub — version control and hosting  
 
 ## 🏗 Architecture
 
