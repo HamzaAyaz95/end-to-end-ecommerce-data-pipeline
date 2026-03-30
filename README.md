@@ -54,11 +54,11 @@ Data stored in BigQuery is further transformed using dbt to create structured st
 The final transformed datasets are used to power an interactive dashboard in Looker Studio.
 
 ![Architecture Diagram](images/architecture.png)
-
 ## 📂 Project Structure
 
-```The project is organized into modular components, separating ETL, transformation, and orchestration layers.
+The project is organized into modular components, separating ETL, transformation, and orchestration layers.
 
+```text
 FINAL_CAPSTONE_PROJECT/
 │
 ├── ecommerce_pipeline/          # Python ETL pipeline
@@ -77,11 +77,7 @@ FINAL_CAPSTONE_PROJECT/
 │   ├── ecommerce_project/
 │   │   ├── models/
 │   │   │   ├── staging/
-│   │   │   │   └── stg_online_retail.sql
 │   │   │   └── marts/
-│   │   │       ├── revenue_by_country.sql
-│   │   │       ├── customer_segments.sql
-│   │   │       └── monthly_revenue.sql
 │   │   ├── schema.yml
 │   │   └── dbt_project.yml
 │   └── logs/
@@ -91,10 +87,14 @@ FINAL_CAPSTONE_PROJECT/
 │   └── docker-compose.yml
 │
 ├── images/                     # Diagrams for README
-│   └── architecture.png
+│   ├── architecture.png
+│   ├── dashboard1.png
+│   ├── dashboard2.png
+│   ├── kestra-topology.png
+│   └── kestra-workflow.png
 │
-├── gcp-key.json                # GCP credentials (not commited)
-└── README.md ```
+└── README.md
+```
 
 ## 🔄 Workflow Orchestration (Kestra)
 
