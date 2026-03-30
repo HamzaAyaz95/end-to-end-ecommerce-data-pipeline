@@ -57,7 +57,7 @@ The final transformed datasets are used to power an interactive dashboard in Loo
 
 ## 📂 Project Structure
 
-The project is organized into modular components, separating ETL, transformation, and orchestration layers.
+```The project is organized into modular components, separating ETL, transformation, and orchestration layers.
 
 FINAL_CAPSTONE_PROJECT/
 │
@@ -94,7 +94,7 @@ FINAL_CAPSTONE_PROJECT/
 │   └── architecture.png
 │
 ├── gcp-key.json                # GCP credentials (not commited)
-└── README.md
+└── README.md ```
 
 ## 🔄 Workflow Orchestration (Kestra)
 
