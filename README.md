@@ -102,8 +102,7 @@ Kestra is used to orchestrate the ETL pipeline and automate its execution. A wor
 
 The workflow is scheduled using a cron-based trigger to run daily at 6:00 AM, enabling automated and consistent data updates. Kestra manages task execution and ensures the pipeline runs reliably without manual intervention.
 
-### Kestra Workflow
-
+### kestra Workflow
 ![Kestra Flow](images/kestra-workflow.png)
 
 ### Kestra Workflow
