@@ -135,7 +135,7 @@ The dashboard presents key business insights such as revenue trends, customer se
 
 ### Revenue by Country & Customer Segmentation
 
-![Dashboard](images/dashboard1.png)
+![Revenue and Segmentation](images/dashboard1.png)
 
 ### Monthly Revenue Trend
 
