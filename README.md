@@ -102,12 +102,15 @@ Kestra is used to orchestrate the ETL pipeline and automate its execution. A wor
 
 The workflow is scheduled using a cron-based trigger to run daily at 6:00 AM, enabling automated and consistent data updates. Kestra manages task execution and ensures the pipeline runs reliably without manual intervention.
 
-### kestra Workflow
-![Kestra Flow](images/kestra-workflow.png)
+<h3>Kestra Workflow</h3>
+<p>
+  <img src="images/kestra-workflow.png" width="800"/>
+</p>
 
-### Kestra Workflow
-
-![Kestra Flow](images/kestra-topology.png)
+<h3>Kestra Topology</h3>
+<p>
+  <img src="images/kestra-topology.png" width="800"/>
+</p>
 
 ## 🧱 dbt Data Modeling
 
