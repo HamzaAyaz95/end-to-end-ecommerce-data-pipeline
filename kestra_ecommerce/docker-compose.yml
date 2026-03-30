@@ -21,7 +21,7 @@ services:
       - /var/run/docker.sock:/var/run/docker.sock
       - ./gcp-key.json:/app/gcp-key.json 
 
-    # 👇 ADD THIS FULL CONFIG BLOCK
+    
     configs:
       - source: kestra-config
         target: /app/config/application.yml
