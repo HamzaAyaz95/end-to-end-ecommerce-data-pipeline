@@ -1,0 +1,102 @@
+[0m03:34:06.411298 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7DFE995E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7DFE9B7D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7DFE9BE90>]}
+
+
+============================== 03:34:06.419441 | b0a58b00-edb4-408d-aa7b-ed4779252c39 ==============================
+[0m03:34:06.419441 [info ] [MainThread]: Running with dbt=1.11.7
+[0m03:34:06.421542 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\hamza\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'invocation_command': 'dbt init ecommerce_project', 'indirect_selection': 'eager', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m03:34:06.466501 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\hamza\.dbt
+[0m03:34:06.473502 [debug] [MainThread]: Starter project path: C:\Users\hamza\Final_Capstone_Project\kestra_ecommerce\dbt_ecommerce\dbt-env\Lib\site-packages\dbt\include\starter_project
+[0m03:34:06.564342 [info ] [MainThread]: 
+Your new dbt project "ecommerce_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m03:34:06.566917 [info ] [MainThread]: Setting up your profile.
+[0m03:40:01.484921 [info ] [MainThread]: Profile ecommerce_project written to C:\Users\hamza\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m03:40:01.586168 [debug] [MainThread]: Command `dbt init` succeeded at 03:40:01.586168 after 355.48 seconds
+[0m03:40:01.605680 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7DFF19E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7F03F1130>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001A7F0718500>]}
+[0m03:40:01.615988 [debug] [MainThread]: Flushing usage events
+[0m03:40:02.623194 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:44:06.550722 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B111931F70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B111AF56D0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1120C8D70>]}
+
+
+============================== 03:44:06.556508 | 99b4bf6b-ee1a-4425-b166-deb5d97d174b ==============================
+[0m03:44:06.556508 [info ] [MainThread]: Running with dbt=1.11.7
+[0m03:44:06.556508 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\hamza\\.dbt', 'invocation_command': 'dbt debug', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m03:44:06.597591 [info ] [MainThread]: dbt version: 1.11.7
+[0m03:44:06.597591 [info ] [MainThread]: python version: 3.12.0
+[0m03:44:06.597591 [info ] [MainThread]: python path: C:\Users\hamza\Final_Capstone_Project\kestra_ecommerce\dbt_ecommerce\dbt-env\Scripts\python.exe
+[0m03:44:06.597591 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m03:44:09.449832 [info ] [MainThread]: Using profiles dir at C:\Users\hamza\.dbt
+[0m03:44:09.449832 [info ] [MainThread]: Using profiles.yml file at C:\Users\hamza\.dbt\profiles.yml
+[0m03:44:09.449832 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\hamza\Final_Capstone_Project\kestra_ecommerce\dbt_ecommerce\dbt_project.yml
+[0m03:44:09.453888 [info ] [MainThread]: adapter type: bigquery
+[0m03:44:09.453888 [info ] [MainThread]: adapter version: 1.11.1
+[0m03:44:09.453888 [info ] [MainThread]: Configuration:
+[0m03:44:09.453888 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m03:44:09.453888 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m03:44:09.457483 [info ] [MainThread]: Required dependencies:
+[0m03:44:09.458677 [debug] [MainThread]: Executing "git --help"
+[0m03:44:09.538418 [debug] [MainThread]: STDOUT: "b"usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]\n           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]\n           [--super-prefix=<path>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone     Clone a repository into a new directory\n   init      Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add       Add file contents to the index\n   mv        Move or rename a file, a directory, or a symlink\n   restore   Restore working tree files\n   rm        Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect    Use binary search to find the commit that introduced a bug\n   diff      Show changes between commits, commit and working tree, etc\n   grep      Print lines matching a pattern\n   log       Show commit logs\n   show      Show various types of objects\n   status    Show the working tree status\n\ngrow, mark and tweak your common history\n   branch    List, create, or delete branches\n   commit    Record changes to the repository\n   merge     Join two or more development histories together\n   rebase    Reapply commits on top of another base tip\n   reset     Reset current HEAD to the specified state\n   switch    Switch branches\n   tag       Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch     Download objects and refs from another repository\n   pull      Fetch from and integrate with another repository or a local branch\n   push      Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m03:44:09.538418 [debug] [MainThread]: STDERR: "b''"
+[0m03:44:09.544564 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m03:44:09.544564 [info ] [MainThread]: Connection:
+[0m03:44:09.544564 [info ] [MainThread]:   method: service-account
+[0m03:44:09.544564 [info ] [MainThread]:   database: kestra-zoomcamp-v2
+[0m03:44:09.547333 [info ] [MainThread]:   execution_project: kestra-zoomcamp-v2
+[0m03:44:09.547333 [info ] [MainThread]:   schema: ecommerce
+[0m03:44:09.547333 [info ] [MainThread]:   location: EU
+[0m03:44:09.547333 [info ] [MainThread]:   priority: interactive
+[0m03:44:09.547333 [info ] [MainThread]:   maximum_bytes_billed: None
+[0m03:44:09.547333 [info ] [MainThread]:   impersonate_service_account: None
+[0m03:44:09.547333 [info ] [MainThread]:   job_retry_deadline_seconds: None
+[0m03:44:09.547333 [info ] [MainThread]:   job_retries: 1
+[0m03:44:09.547333 [info ] [MainThread]:   job_creation_timeout_seconds: None
+[0m03:44:09.547333 [info ] [MainThread]:   job_execution_timeout_seconds: 300
+[0m03:44:09.553416 [info ] [MainThread]:   timeout_seconds: 300
+[0m03:44:09.554479 [info ] [MainThread]:   client_id: None
+[0m03:44:09.554479 [info ] [MainThread]:   token_uri: None
+[0m03:44:09.555922 [info ] [MainThread]:   compute_region: None
+[0m03:44:09.556431 [info ] [MainThread]:   dataproc_cluster_name: None
+[0m03:44:09.557442 [info ] [MainThread]:   gcs_bucket: None
+[0m03:44:09.557442 [info ] [MainThread]:   dataproc_batch: None
+[0m03:44:09.558456 [info ] [MainThread]: Registered adapter: bigquery=1.11.1
+[0m03:44:10.255705 [debug] [MainThread]: Acquiring new bigquery connection 'debug'
+[0m03:44:10.265385 [debug] [MainThread]: On debug: select 1 as id
+[0m03:44:10.265385 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m03:44:14.285261 [debug] [MainThread]: BigQuery adapter: https://console.cloud.google.com/bigquery?project=kestra-zoomcamp-v2&j=bq:EU:84086036-2121-4255-8f71-4b72780e682e&page=queryresults
+[0m03:44:14.429883 [debug] [MainThread]: SQL status: OK in 0.139 seconds
+[0m03:44:18.546532 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m03:44:18.546532 [info ] [MainThread]: [31m1 check failed:[0m
+[0m03:44:18.546532 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\Users\hamza\Final_Capstone_Project\kestra_ecommerce\dbt_ecommerce\dbt_project.yml> not found
+
+[0m03:44:18.550985 [debug] [MainThread]: Command `dbt debug` failed at 03:44:18.550985 after 12.32 seconds
+[0m03:44:18.550985 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m03:44:18.552634 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B112031010>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B11219EB70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002B1242D77A0>]}
+[0m03:44:18.552634 [debug] [MainThread]: Flushing usage events
+[0m03:44:19.298505 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m03:47:13.363272 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029852EEB530>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029852F5A330>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029852F5A300>]}
+
+
+============================== 03:47:13.371216 | b96132b1-1bc6-4c50-a460-22196720a361 ==============================
+[0m03:47:13.371216 [info ] [MainThread]: Running with dbt=1.11.7
+[0m03:47:13.372837 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'static_parser': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\hamza\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'invocation_command': 'dbt init ecommerce_project', 'indirect_selection': 'eager', 'use_colors': 'True', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m03:47:13.409663 [info ] [MainThread]: A project called ecommerce_project already exists here.
+[0m03:47:13.411679 [debug] [MainThread]: Command `dbt init` succeeded at 03:47:13.411679 after 0.31 seconds
+[0m03:47:13.411679 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029853066960>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029852F5A1E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000029852F595E0>]}
+[0m03:47:13.412676 [debug] [MainThread]: Flushing usage events
+[0m03:47:14.222060 [debug] [MainThread]: An error was encountered while trying to flush usage events

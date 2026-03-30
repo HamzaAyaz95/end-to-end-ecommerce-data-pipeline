@@ -1,0 +1,31 @@
+# Virtual environment
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables / secrets
+.env
+
+# GCP credentials (IMPORTANT)
+gcp-key.json
+
+# dbt
+target/
+logs/
+
+# Jupyter notebooks checkpoints (if any)
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# IDE
+.vscode/
+
+dbt-env/

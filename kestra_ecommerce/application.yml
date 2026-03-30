@@ -1,0 +1,11 @@
+kestra:
+  queue:
+    type: memory
+
+  repository:
+    type: h2
+
+  storage:
+    type: local
+    local:
+      basePath: /app/storage 
