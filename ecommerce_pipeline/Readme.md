@@ -104,7 +104,7 @@ The workflow is scheduled using a cron-based trigger to run daily at 6:00 AM, en
 
 ### Kestra Workflow
 
-![Kestra Flow](images/kestra-workflow.png)
+![Kestra Flow](https://raw.githubusercontent.com/HamzaAyaz95/end-to-end-ecommerce-data-pipeline/main/images/kestra-workflow.png)
 
 ### Kestra Topology
 
