@@ -1,0 +1,22 @@
+id: ecommerce_pipeline_final
+namespace: zoomcamp
+
+triggers:
+  - id: daily_schedule
+    type: io.kestra.plugin.core.trigger.Schedule
+    cron: "0 6 * * *"
+
+tasks:
+  - id: run_pipeline
+    type: io.kestra.plugin.scripts.python.Commands
+    runner: PROCESS
+
+    beforeCommands:
+      - pip install -r /app/project/ecommerce_pipeline/requirements.txt
+
+    commands:
+      - cd /app/project/ecommerce_pipeline/pipeline
+      - python extract.py
+      - python transform.py
+      - python load_gcs.py
+      - python load_bq.py
